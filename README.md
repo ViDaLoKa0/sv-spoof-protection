@@ -1,4 +1,4 @@
-Este programa hace un intento por defender tu servidor del query-spoofing mencionado en www.github.com/lleps/sv-spoof-attacker. Lo hace de la siguiente manera: 
+Este programa hace un intento por defender tu servidor del query-spoofing mencionado en www.github.com/SergiooES/sv-spoof-attacker. Lo hace de la siguiente manera: 
 
 Primero, necesita conocer la información real del servidor. En la carpeta "fs" vas a encontrar los archivos .pwn y .amx de un script que necesitas cargar en el servidor, el cual le informa al programa el estado del servidor (jugadores, hostname, etc). Lo hace por medio de un archivo (si, es una mierda, pero pawn no soporta sockets y no quiero incluir ningún plugin aparte).
 
